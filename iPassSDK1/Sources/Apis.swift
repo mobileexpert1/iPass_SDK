@@ -421,17 +421,17 @@ open class Apis: NSObject {
         }
     }
     
-    ////Mark :- 28- 32 Uploaded Document Data
+    // MARK: - 28- 32 Uploaded Document Data
     open func getDataOfType(token:String,jwtToken:String,apimId:String,documentType:String ,completion : @escaping(_ : [String : Any]?)->Void){
         
         switch(documentType){
-        case "Passport":
+        case "Passport": //Get Passport Image Data
             self.baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.passportGetData.rawValue +  token + "&apimId=\(apimId)"
-        case "DrivingLicence":
+        case "DrivingLicence": //Get Driving License Image Data
             self.baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.drivingGetData.rawValue +  token + "&apimId=\(apimId)"
-        case "FrontIDCard":
+        case "FrontIDCard": //Get Id Card Front Image
             self.baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.idCardGetFRNTData.rawValue +  token + "&apimId=\(apimId)"
-        case "BackIDCard":
+        case "BackIDCard": //Get Id Card Back Image
             self.baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.idCardGetBackData.rawValue +  token + "&apimId=\(apimId)"
         case "Document":
             self.baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.documentGetData.rawValue +  token + "&apimId=\(apimId)"
