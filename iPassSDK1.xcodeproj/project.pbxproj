@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C98B28D3290193FF1A90F61 /* Pods_iPassSDK1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA996C16DDC21E9F7855919 /* Pods_iPassSDK1.framework */; };
+		4089036D29EEA818000AD433 /* GetValidateDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089036C29EEA818000AD433 /* GetValidateDocumentModel.swift */; };
+		4089036F29EEA972000AD433 /* GetScreeningDocumentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089036E29EEA972000AD433 /* GetScreeningDocumentDataModel.swift */; };
+		4089037129EEAEBA000AD433 /* HandwrittenDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089037029EEAEBA000AD433 /* HandwrittenDocumentModel.swift */; };
+		4089037329EEC2BE000AD433 /* DocumentErrorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089037229EEC2BE000AD433 /* DocumentErrorCase.swift */; };
 		4092968129927371000C3F1B /* iPassSDK1.h in Headers */ = {isa = PBXBuildFile; fileRef = 4092968029927371000C3F1B /* iPassSDK1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40A48FA629CC901A00D090CE /* KYCInitateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A48FA529CC901A00D090CE /* KYCInitateModel.swift */; };
 		40A48FA829CC94EF00D090CE /* KYCWorkflowStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A48FA729CC94EF00D090CE /* KYCWorkflowStatusModel.swift */; };
@@ -39,6 +43,10 @@
 		08AA388B12B858A009C57C8C /* Pods-iPassSDK1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPassSDK1.release.xcconfig"; path = "Target Support Files/Pods-iPassSDK1/Pods-iPassSDK1.release.xcconfig"; sourceTree = "<group>"; };
 		1EA996C16DDC21E9F7855919 /* Pods_iPassSDK1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPassSDK1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		400F2E1D29CC371F00BBB2A6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4089036C29EEA818000AD433 /* GetValidateDocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetValidateDocumentModel.swift; sourceTree = "<group>"; };
+		4089036E29EEA972000AD433 /* GetScreeningDocumentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetScreeningDocumentDataModel.swift; sourceTree = "<group>"; };
+		4089037029EEAEBA000AD433 /* HandwrittenDocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwrittenDocumentModel.swift; sourceTree = "<group>"; };
+		4089037229EEC2BE000AD433 /* DocumentErrorCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentErrorCase.swift; sourceTree = "<group>"; };
 		4092967D29927371000C3F1B /* iPassSDK1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPassSDK1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4092968029927371000C3F1B /* iPassSDK1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPassSDK1.h; sourceTree = "<group>"; };
 		40A48FA529CC901A00D090CE /* KYCInitateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCInitateModel.swift; sourceTree = "<group>"; };
@@ -158,6 +166,10 @@
 				40D2A53429CB08DD00339E92 /* DrivingPostModel.swift */,
 				40D2A53329CB08DD00339E92 /* PassPostModel.swift */,
 				40D2A53229CB08DD00339E92 /* PostIDCardFrontModel.swift */,
+				4089036C29EEA818000AD433 /* GetValidateDocumentModel.swift */,
+				4089036E29EEA972000AD433 /* GetScreeningDocumentDataModel.swift */,
+				4089037029EEAEBA000AD433 /* HandwrittenDocumentModel.swift */,
+				4089037229EEC2BE000AD433 /* DocumentErrorCase.swift */,
 			);
 			path = PostData;
 			sourceTree = "<group>";
@@ -313,7 +325,10 @@
 				40D2A54A29CB0AD400339E92 /* FrontImageData.swift in Sources */,
 				40A48FA829CC94EF00D090CE /* KYCWorkflowStatusModel.swift in Sources */,
 				40D2A52529CB085E00339E92 /* ApiStore.swift in Sources */,
+				4089037329EEC2BE000AD433 /* DocumentErrorCase.swift in Sources */,
+				4089036D29EEA818000AD433 /* GetValidateDocumentModel.swift in Sources */,
 				40D2A52F29CB08BE00339E92 /* ErrorBase.swift in Sources */,
+				4089037129EEAEBA000AD433 /* HandwrittenDocumentModel.swift in Sources */,
 				40D2A53629CB08DD00339E92 /* PassPostModel.swift in Sources */,
 				40A48FAA29CC968B00D090CE /* KYCUserDetailModel.swift in Sources */,
 				40D2A52E29CB08BE00339E92 /* KYCModel.swift in Sources */,
@@ -325,6 +340,7 @@
 				40D2A53529CB08DD00339E92 /* PostIDCardFrontModel.swift in Sources */,
 				40D2A54529CB0AD400339E92 /* DeleteAccountDataModel.swift in Sources */,
 				40D2A54C29CB0AD400339E92 /* WorkFlowStatrusModel.swift in Sources */,
+				4089036F29EEA972000AD433 /* GetScreeningDocumentDataModel.swift in Sources */,
 				40D2A54829CB0AD400339E92 /* UserStatusError.swift in Sources */,
 				40A48FA629CC901A00D090CE /* KYCInitateModel.swift in Sources */,
 				40D2A53129CB08BE00339E92 /* KYCPrePareDataModel.swift in Sources */,
